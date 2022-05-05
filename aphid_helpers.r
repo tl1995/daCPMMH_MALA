@@ -33,6 +33,7 @@ betaAphid=function(x,theta=c(1.75,0.001))
 #Arguments:
 #x is a bridge
 #yT is the observation being bridged towards
+#T is the time from the start of the bridge to the observation
 #afun and bfun are the drift and diffusion functions
 #deltat is the intermediate time step
 #theta is a vector of the proposed model parameters
